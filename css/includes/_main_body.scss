@@ -1,0 +1,12 @@
+.main__content{
+    // margin-top: 25px;
+    margin-top: 1px;
+    .marquee__text{
+        height: 40px;
+        width: 100%;
+        background: lightblue;
+        marquee{
+            font-size: 1.3rem;
+        }
+    }
+}
