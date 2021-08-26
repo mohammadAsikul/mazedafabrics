@@ -64,7 +64,7 @@
                     h3{
                         font-size: 1.4rem;
                         font-weight: 900;
-                        color: #000;
+                        color: #fff;
                     }
                 }
                 .menu__ul{
@@ -74,9 +74,12 @@
                             color: #fff;
                             // border: 1px solid red;
                             font-size: 18px;
-                            padding: 20px 10px;
+                            padding: 20px 12px;
                             transition: all 0.5s ease;
                             background: transparent;
+                            text-transform: capitalize;
+                            // text-transform: uppercase;
+                            // font-size: 15px;
                         }
                         a:hover{
                             background-color: #5DA9DD;
@@ -123,28 +126,44 @@
             .slide--4{
                 background-image: url(../../assets/slider/slider-4.jpg);
             }
+            // owl carousel
+            // slider dot
+            .owl-dots{
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                bottom: 1%;
+            }
+            .owl-prev,
+            .owl-next{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #fff !important;
+                font-size: 60px !important;
+                background: none !important;
+            }
+            .owl-prev{
+                left: 1%;
+            }
+            .owl-next{
+                right: 1%;
+            }
         }
     }
 }
-// slider dot
-.owl-dots{
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 1%;
-}
-.owl-prev,
-.owl-next{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff !important;
-    font-size: 60px !important;
-    background: none !important;
-}
-.owl-prev{
-    left: 1%;
-}
-.owl-next{
-    right: 1%;
+// scroll top btn
+.scroll__top{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    .scroll__top--btn{
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 2.4rem;
+        color: #5DA9DD;
+        display: none;
+        cursor: pointer;
+    }
 }

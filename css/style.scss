@@ -3,3 +3,8 @@
 @import './includes/reset';
 @import './includes/header';
 @import './includes/main_body';
+
+// menu section scroll class
+.menu__scroll--gt{
+    background: rgba(0,0,0, 0.7);
+}

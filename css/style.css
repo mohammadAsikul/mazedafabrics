@@ -159,7 +159,7 @@ a {
 .menu .container .logo__menu--container .slogan h3 {
   font-size: 1.4rem;
   font-weight: 900;
-  color: #000;
+  color: #fff;
 }
 
 .menu .container .logo__menu--container .menu__ul {
@@ -169,10 +169,11 @@ a {
 .menu .container .logo__menu--container .menu__ul--li a {
   color: #fff;
   font-size: 18px;
-  padding: 20px 10px;
+  padding: 20px 12px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   background: transparent;
+  text-transform: capitalize;
 }
 
 .menu .container .logo__menu--container .menu__ul--li a:hover {
@@ -224,15 +225,15 @@ a {
   background-image: url(../../assets/slider/slider-4.jpg);
 }
 
-.owl-dots {
+.banner .container .owl-carousel .owl-dots {
   width: 100%;
   text-align: center;
   position: absolute;
   bottom: 1%;
 }
 
-.owl-prev,
-.owl-next {
+.banner .container .owl-carousel .owl-prev,
+.banner .container .owl-carousel .owl-next {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -242,16 +243,28 @@ a {
   background: none !important;
 }
 
-.owl-prev {
+.banner .container .owl-carousel .owl-prev {
   left: 1%;
 }
 
-.owl-next {
+.banner .container .owl-carousel .owl-next {
   right: 1%;
 }
 
-.main__content {
-  margin-top: 1px;
+.scroll__top {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+}
+
+.scroll__top .scroll__top--btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 2.4rem;
+  color: #5DA9DD;
+  display: none;
+  cursor: pointer;
 }
 
 .main__content .marquee__text {
@@ -260,7 +273,151 @@ a {
   background: lightblue;
 }
 
-.main__content .marquee__text marquee {
+.main__content .marquee__text .container marquee {
+  font-size: 1.2rem;
+}
+
+.main__content .about__us,
+.main__content .machine__util {
+  margin: 40px 0;
+}
+
+.main__content .about__us .container .about__us--content,
+.main__content .about__us .container .machine__util--content,
+.main__content .machine__util .container .about__us--content,
+.main__content .machine__util .container .machine__util--content {
+  margin-bottom: 40px;
+}
+
+.main__content .about__us .container .about__us--content .big--heading,
+.main__content .about__us .container .machine__util--content .big--heading,
+.main__content .machine__util .container .about__us--content .big--heading,
+.main__content .machine__util .container .machine__util--content .big--heading {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 6fr 3fr 6fr;
+      grid-template-columns: 6fr 3fr 6fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__content .about__us .container .about__us--content .big--heading h1,
+.main__content .about__us .container .machine__util--content .big--heading h1,
+.main__content .machine__util .container .about__us--content .big--heading h1,
+.main__content .machine__util .container .machine__util--content .big--heading h1 {
+  font-size: 40px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.main__content .about__us .container .about__us--content .big--heading .border--left,
+.main__content .about__us .container .about__us--content .big--heading .border--right,
+.main__content .about__us .container .machine__util--content .big--heading .border--left,
+.main__content .about__us .container .machine__util--content .big--heading .border--right,
+.main__content .machine__util .container .about__us--content .big--heading .border--left,
+.main__content .machine__util .container .about__us--content .big--heading .border--right,
+.main__content .machine__util .container .machine__util--content .big--heading .border--left,
+.main__content .machine__util .container .machine__util--content .big--heading .border--right {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: crimson;
+}
+
+.main__content .about__us .container .about__us--content .big--heading .border--left,
+.main__content .about__us .container .machine__util--content .big--heading .border--left,
+.main__content .machine__util .container .about__us--content .big--heading .border--left,
+.main__content .machine__util .container .machine__util--content .big--heading .border--left {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.main__content .about__us .container .about__us--content .big--heading p,
+.main__content .about__us .container .machine__util--content .big--heading p,
+.main__content .machine__util .container .about__us--content .big--heading p,
+.main__content .machine__util .container .machine__util--content .big--heading p {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  font-size: 1.2rem;
+}
+
+.main__content .about__us .container .about__us--content h3,
+.main__content .about__us .container .machine__util--content h3,
+.main__content .machine__util .container .about__us--content h3,
+.main__content .machine__util .container .machine__util--content h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+.main__content .about__us .container .about__us--content p,
+.main__content .about__us .container .machine__util--content p,
+.main__content .machine__util .container .about__us--content p,
+.main__content .machine__util .container .machine__util--content p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.main__content .about__us .container .md--container,
+.main__content .machine__util .container .md--container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 1fr;
+      grid-template-columns: 300px 1fr;
+  grid-gap: 0 30px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__content .about__us .container .md--container .img img,
+.main__content .machine__util .container .md--container .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.main__content .about__us .container .md--container .content .md--name,
+.main__content .machine__util .container .md--container .content .md--name {
+  font-size: 1.6rem;
+  color: crimson;
+  padding: 3px 0;
+  text-transform: uppercase;
+}
+
+.main__content .about__us .container .md--container .content .underline,
+.main__content .machine__util .container .md--container .content .underline {
+  background: crimson;
+  height: 3px;
+  width: 130px;
+}
+
+.main__content .about__us .container .md--container .content h4,
+.main__content .machine__util .container .md--container .content h4 {
   font-size: 1.3rem;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.main__content .about__us .container .md--container .content p,
+.main__content .machine__util .container .md--container .content p {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.menu__scroll--gt {
+  background: rgba(0, 0, 0, 0.7);
 }
 /*# sourceMappingURL=style.css.map */
