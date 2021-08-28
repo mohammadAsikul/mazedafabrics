@@ -6,7 +6,32 @@ $(document).ready(function() {
     }else{
       $(".menu").removeClass("menu__scroll--gt");
     }
-  })
+  });
+  // home scroll effect
+  $("#home_link").click(function () {
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+  });
+  // about us scroll 
+  $("#about_us_link").click(function () {
+    $('html, body').animate({scrollTop : 575},800);
+    return false;
+  });
+  // machine_link scroll 
+  $("#machine_link").click(function () {
+    $('html, body').animate({scrollTop : 1140},800);
+    return false;
+  });
+  // products scroll 
+  $("#products_link").click(function () {
+    $('html, body').animate({scrollTop : 1500},800);
+    return false;
+  });
+  // service scroll 
+  $("#services_link").click(function () {
+    $('html, body').animate({scrollTop : 1875},800);
+    return false;
+  });
   // scroll top button effect -- check to see if the window is top if not then display button
   $(window).scroll(function () {
     if($(this).scrollTop() > 100) {
@@ -20,8 +45,8 @@ $(document).ready(function() {
     $('html, body').animate({scrollTop : 0},800);
     return false;
   })
-  // slider
-  $(".owl-carousel").owlCarousel({
+  // slider for banner section
+  $(".owl-one").owlCarousel({
       items:1,
       loop:true,
       nav:true,
@@ -32,6 +57,42 @@ $(document).ready(function() {
       autoplayHoverPause:true,
       animateOut: 'slideOutDown',
       animateIn: 'pulse'
+  });
+  // slider for machinaries and utilites
+  $(".owl-two").owlCarousel({
+    items:4,
+    loop:true,
+    nav:true,
+    dots:true,
+    autoplay:true,
+    autoplaySpeed:1000,
+    smartSpeed:1500,
+    autoplayHoverPause:true,
+    margin: 10
+  });
+  // slider for products
+  $(".owl-three").owlCarousel({
+    items:4,
+    loop:true,
+    nav:true,
+    dots:true,
+    autoplay:true,
+    autoplaySpeed:1000,
+    smartSpeed:1500,
+    autoplayHoverPause:true,
+    margin: 10
+  });
+  // slider for products
+  $(".owl-four").owlCarousel({
+    items:4,
+    loop:true,
+    nav:true,
+    dots:true,
+    autoplay:true,
+    autoplaySpeed:1000,
+    smartSpeed:1500,
+    autoplayHoverPause:true,
+    margin: 10
   });
   // typing animation
   var typed = new Typed(".typing", {

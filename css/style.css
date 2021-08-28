@@ -278,21 +278,39 @@ a {
 }
 
 .main__content .about__us,
-.main__content .machine__util {
+.main__content .machine__util,
+.main__content .our__products,
+.main__content .our__services {
   margin: 40px 0;
 }
 
 .main__content .about__us .container .about__us--content,
 .main__content .about__us .container .machine__util--content,
+.main__content .about__us .container .service--content,
 .main__content .machine__util .container .about__us--content,
-.main__content .machine__util .container .machine__util--content {
+.main__content .machine__util .container .machine__util--content,
+.main__content .machine__util .container .service--content,
+.main__content .our__products .container .about__us--content,
+.main__content .our__products .container .machine__util--content,
+.main__content .our__products .container .service--content,
+.main__content .our__services .container .about__us--content,
+.main__content .our__services .container .machine__util--content,
+.main__content .our__services .container .service--content {
   margin-bottom: 40px;
 }
 
 .main__content .about__us .container .about__us--content .big--heading,
 .main__content .about__us .container .machine__util--content .big--heading,
+.main__content .about__us .container .service--content .big--heading,
 .main__content .machine__util .container .about__us--content .big--heading,
-.main__content .machine__util .container .machine__util--content .big--heading {
+.main__content .machine__util .container .machine__util--content .big--heading,
+.main__content .machine__util .container .service--content .big--heading,
+.main__content .our__products .container .about__us--content .big--heading,
+.main__content .our__products .container .machine__util--content .big--heading,
+.main__content .our__products .container .service--content .big--heading,
+.main__content .our__services .container .about__us--content .big--heading,
+.main__content .our__services .container .machine__util--content .big--heading,
+.main__content .our__services .container .service--content .big--heading {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 1fr 1fr;
@@ -306,8 +324,16 @@ a {
 
 .main__content .about__us .container .about__us--content .big--heading h1,
 .main__content .about__us .container .machine__util--content .big--heading h1,
+.main__content .about__us .container .service--content .big--heading h1,
 .main__content .machine__util .container .about__us--content .big--heading h1,
-.main__content .machine__util .container .machine__util--content .big--heading h1 {
+.main__content .machine__util .container .machine__util--content .big--heading h1,
+.main__content .machine__util .container .service--content .big--heading h1,
+.main__content .our__products .container .about__us--content .big--heading h1,
+.main__content .our__products .container .machine__util--content .big--heading h1,
+.main__content .our__products .container .service--content .big--heading h1,
+.main__content .our__services .container .about__us--content .big--heading h1,
+.main__content .our__services .container .machine__util--content .big--heading h1,
+.main__content .our__services .container .service--content .big--heading h1 {
   font-size: 40px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -323,10 +349,26 @@ a {
 .main__content .about__us .container .about__us--content .big--heading .border--right,
 .main__content .about__us .container .machine__util--content .big--heading .border--left,
 .main__content .about__us .container .machine__util--content .big--heading .border--right,
+.main__content .about__us .container .service--content .big--heading .border--left,
+.main__content .about__us .container .service--content .big--heading .border--right,
 .main__content .machine__util .container .about__us--content .big--heading .border--left,
 .main__content .machine__util .container .about__us--content .big--heading .border--right,
 .main__content .machine__util .container .machine__util--content .big--heading .border--left,
-.main__content .machine__util .container .machine__util--content .big--heading .border--right {
+.main__content .machine__util .container .machine__util--content .big--heading .border--right,
+.main__content .machine__util .container .service--content .big--heading .border--left,
+.main__content .machine__util .container .service--content .big--heading .border--right,
+.main__content .our__products .container .about__us--content .big--heading .border--left,
+.main__content .our__products .container .about__us--content .big--heading .border--right,
+.main__content .our__products .container .machine__util--content .big--heading .border--left,
+.main__content .our__products .container .machine__util--content .big--heading .border--right,
+.main__content .our__products .container .service--content .big--heading .border--left,
+.main__content .our__products .container .service--content .big--heading .border--right,
+.main__content .our__services .container .about__us--content .big--heading .border--left,
+.main__content .our__services .container .about__us--content .big--heading .border--right,
+.main__content .our__services .container .machine__util--content .big--heading .border--left,
+.main__content .our__services .container .machine__util--content .big--heading .border--right,
+.main__content .our__services .container .service--content .big--heading .border--left,
+.main__content .our__services .container .service--content .big--heading .border--right {
   display: block;
   width: 50px;
   height: 3px;
@@ -335,16 +377,32 @@ a {
 
 .main__content .about__us .container .about__us--content .big--heading .border--left,
 .main__content .about__us .container .machine__util--content .big--heading .border--left,
+.main__content .about__us .container .service--content .big--heading .border--left,
 .main__content .machine__util .container .about__us--content .big--heading .border--left,
-.main__content .machine__util .container .machine__util--content .big--heading .border--left {
+.main__content .machine__util .container .machine__util--content .big--heading .border--left,
+.main__content .machine__util .container .service--content .big--heading .border--left,
+.main__content .our__products .container .about__us--content .big--heading .border--left,
+.main__content .our__products .container .machine__util--content .big--heading .border--left,
+.main__content .our__products .container .service--content .big--heading .border--left,
+.main__content .our__services .container .about__us--content .big--heading .border--left,
+.main__content .our__services .container .machine__util--content .big--heading .border--left,
+.main__content .our__services .container .service--content .big--heading .border--left {
   -ms-grid-column-align: end;
       justify-self: end;
 }
 
 .main__content .about__us .container .about__us--content .big--heading p,
 .main__content .about__us .container .machine__util--content .big--heading p,
+.main__content .about__us .container .service--content .big--heading p,
 .main__content .machine__util .container .about__us--content .big--heading p,
-.main__content .machine__util .container .machine__util--content .big--heading p {
+.main__content .machine__util .container .machine__util--content .big--heading p,
+.main__content .machine__util .container .service--content .big--heading p,
+.main__content .our__products .container .about__us--content .big--heading p,
+.main__content .our__products .container .machine__util--content .big--heading p,
+.main__content .our__products .container .service--content .big--heading p,
+.main__content .our__services .container .about__us--content .big--heading p,
+.main__content .our__services .container .machine__util--content .big--heading p,
+.main__content .our__services .container .service--content .big--heading p {
   -ms-grid-column-align: center;
       justify-self: center;
   font-size: 1.2rem;
@@ -352,8 +410,16 @@ a {
 
 .main__content .about__us .container .about__us--content h3,
 .main__content .about__us .container .machine__util--content h3,
+.main__content .about__us .container .service--content h3,
 .main__content .machine__util .container .about__us--content h3,
-.main__content .machine__util .container .machine__util--content h3 {
+.main__content .machine__util .container .machine__util--content h3,
+.main__content .machine__util .container .service--content h3,
+.main__content .our__products .container .about__us--content h3,
+.main__content .our__products .container .machine__util--content h3,
+.main__content .our__products .container .service--content h3,
+.main__content .our__services .container .about__us--content h3,
+.main__content .our__services .container .machine__util--content h3,
+.main__content .our__services .container .service--content h3 {
   margin-bottom: 30px;
   text-align: center;
   font-size: 1.9rem;
@@ -361,14 +427,24 @@ a {
 
 .main__content .about__us .container .about__us--content p,
 .main__content .about__us .container .machine__util--content p,
+.main__content .about__us .container .service--content p,
 .main__content .machine__util .container .about__us--content p,
-.main__content .machine__util .container .machine__util--content p {
+.main__content .machine__util .container .machine__util--content p,
+.main__content .machine__util .container .service--content p,
+.main__content .our__products .container .about__us--content p,
+.main__content .our__products .container .machine__util--content p,
+.main__content .our__products .container .service--content p,
+.main__content .our__services .container .about__us--content p,
+.main__content .our__services .container .machine__util--content p,
+.main__content .our__services .container .service--content p {
   font-size: 1.2rem;
   text-align: justify;
 }
 
 .main__content .about__us .container .md--container,
-.main__content .machine__util .container .md--container {
+.main__content .machine__util .container .md--container,
+.main__content .our__products .container .md--container,
+.main__content .our__services .container .md--container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 300px 1fr;
@@ -383,13 +459,17 @@ a {
 }
 
 .main__content .about__us .container .md--container .img img,
-.main__content .machine__util .container .md--container .img img {
+.main__content .machine__util .container .md--container .img img,
+.main__content .our__products .container .md--container .img img,
+.main__content .our__services .container .md--container .img img {
   width: 100%;
   height: 100%;
 }
 
 .main__content .about__us .container .md--container .content .md--name,
-.main__content .machine__util .container .md--container .content .md--name {
+.main__content .machine__util .container .md--container .content .md--name,
+.main__content .our__products .container .md--container .content .md--name,
+.main__content .our__services .container .md--container .content .md--name {
   font-size: 1.6rem;
   color: crimson;
   padding: 3px 0;
@@ -397,24 +477,220 @@ a {
 }
 
 .main__content .about__us .container .md--container .content .underline,
-.main__content .machine__util .container .md--container .content .underline {
+.main__content .machine__util .container .md--container .content .underline,
+.main__content .our__products .container .md--container .content .underline,
+.main__content .our__services .container .md--container .content .underline {
   background: crimson;
   height: 3px;
   width: 130px;
 }
 
 .main__content .about__us .container .md--container .content h4,
-.main__content .machine__util .container .md--container .content h4 {
+.main__content .machine__util .container .md--container .content h4,
+.main__content .our__products .container .md--container .content h4,
+.main__content .our__services .container .md--container .content h4 {
   font-size: 1.3rem;
   padding: 5px 0;
   text-transform: uppercase;
 }
 
 .main__content .about__us .container .md--container .content p,
-.main__content .machine__util .container .md--container .content p {
+.main__content .machine__util .container .md--container .content p,
+.main__content .our__products .container .md--container .content p,
+.main__content .our__services .container .md--container .content p {
   margin-top: 5px;
   font-size: 1.2rem;
   text-align: justify;
+}
+
+.main__content .machine__util .container .machine__list .owl-two .boxs,
+.main__content .machine__util .container .machine__list .owl-three .boxs,
+.main__content .machine__util .container .machine__list .owl-four .boxs,
+.main__content .machine__util .container .product__list .owl-two .boxs,
+.main__content .machine__util .container .product__list .owl-three .boxs,
+.main__content .machine__util .container .product__list .owl-four .boxs,
+.main__content .machine__util .container .services__list .owl-two .boxs,
+.main__content .machine__util .container .services__list .owl-three .boxs,
+.main__content .machine__util .container .services__list .owl-four .boxs,
+.main__content .our__products .container .machine__list .owl-two .boxs,
+.main__content .our__products .container .machine__list .owl-three .boxs,
+.main__content .our__products .container .machine__list .owl-four .boxs,
+.main__content .our__products .container .product__list .owl-two .boxs,
+.main__content .our__products .container .product__list .owl-three .boxs,
+.main__content .our__products .container .product__list .owl-four .boxs,
+.main__content .our__products .container .services__list .owl-two .boxs,
+.main__content .our__products .container .services__list .owl-three .boxs,
+.main__content .our__products .container .services__list .owl-four .boxs,
+.main__content .our__services .container .machine__list .owl-two .boxs,
+.main__content .our__services .container .machine__list .owl-three .boxs,
+.main__content .our__services .container .machine__list .owl-four .boxs,
+.main__content .our__services .container .product__list .owl-two .boxs,
+.main__content .our__services .container .product__list .owl-three .boxs,
+.main__content .our__services .container .product__list .owl-four .boxs,
+.main__content .our__services .container .services__list .owl-two .boxs,
+.main__content .our__services .container .services__list .owl-three .boxs,
+.main__content .our__services .container .services__list .owl-four .boxs {
+  height: 200px;
+  width: 100%;
+  background-color: crimson;
+}
+
+.main__content .machine__util .container .machine__list .owl-two .owl-dots,
+.main__content .machine__util .container .machine__list .owl-three .owl-dots,
+.main__content .machine__util .container .machine__list .owl-four .owl-dots,
+.main__content .machine__util .container .product__list .owl-two .owl-dots,
+.main__content .machine__util .container .product__list .owl-three .owl-dots,
+.main__content .machine__util .container .product__list .owl-four .owl-dots,
+.main__content .machine__util .container .services__list .owl-two .owl-dots,
+.main__content .machine__util .container .services__list .owl-three .owl-dots,
+.main__content .machine__util .container .services__list .owl-four .owl-dots,
+.main__content .our__products .container .machine__list .owl-two .owl-dots,
+.main__content .our__products .container .machine__list .owl-three .owl-dots,
+.main__content .our__products .container .machine__list .owl-four .owl-dots,
+.main__content .our__products .container .product__list .owl-two .owl-dots,
+.main__content .our__products .container .product__list .owl-three .owl-dots,
+.main__content .our__products .container .product__list .owl-four .owl-dots,
+.main__content .our__products .container .services__list .owl-two .owl-dots,
+.main__content .our__products .container .services__list .owl-three .owl-dots,
+.main__content .our__products .container .services__list .owl-four .owl-dots,
+.main__content .our__services .container .machine__list .owl-two .owl-dots,
+.main__content .our__services .container .machine__list .owl-three .owl-dots,
+.main__content .our__services .container .machine__list .owl-four .owl-dots,
+.main__content .our__services .container .product__list .owl-two .owl-dots,
+.main__content .our__services .container .product__list .owl-three .owl-dots,
+.main__content .our__services .container .product__list .owl-four .owl-dots,
+.main__content .our__services .container .services__list .owl-two .owl-dots,
+.main__content .our__services .container .services__list .owl-three .owl-dots,
+.main__content .our__services .container .services__list .owl-four .owl-dots {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -5%;
+}
+
+.main__content .machine__util .container .machine__list .owl-two .owl-prev,
+.main__content .machine__util .container .machine__list .owl-two .owl-next,
+.main__content .machine__util .container .machine__list .owl-three .owl-prev,
+.main__content .machine__util .container .machine__list .owl-three .owl-next,
+.main__content .machine__util .container .machine__list .owl-four .owl-prev,
+.main__content .machine__util .container .machine__list .owl-four .owl-next,
+.main__content .machine__util .container .product__list .owl-two .owl-prev,
+.main__content .machine__util .container .product__list .owl-two .owl-next,
+.main__content .machine__util .container .product__list .owl-three .owl-prev,
+.main__content .machine__util .container .product__list .owl-three .owl-next,
+.main__content .machine__util .container .product__list .owl-four .owl-prev,
+.main__content .machine__util .container .product__list .owl-four .owl-next,
+.main__content .machine__util .container .services__list .owl-two .owl-prev,
+.main__content .machine__util .container .services__list .owl-two .owl-next,
+.main__content .machine__util .container .services__list .owl-three .owl-prev,
+.main__content .machine__util .container .services__list .owl-three .owl-next,
+.main__content .machine__util .container .services__list .owl-four .owl-prev,
+.main__content .machine__util .container .services__list .owl-four .owl-next,
+.main__content .our__products .container .machine__list .owl-two .owl-prev,
+.main__content .our__products .container .machine__list .owl-two .owl-next,
+.main__content .our__products .container .machine__list .owl-three .owl-prev,
+.main__content .our__products .container .machine__list .owl-three .owl-next,
+.main__content .our__products .container .machine__list .owl-four .owl-prev,
+.main__content .our__products .container .machine__list .owl-four .owl-next,
+.main__content .our__products .container .product__list .owl-two .owl-prev,
+.main__content .our__products .container .product__list .owl-two .owl-next,
+.main__content .our__products .container .product__list .owl-three .owl-prev,
+.main__content .our__products .container .product__list .owl-three .owl-next,
+.main__content .our__products .container .product__list .owl-four .owl-prev,
+.main__content .our__products .container .product__list .owl-four .owl-next,
+.main__content .our__products .container .services__list .owl-two .owl-prev,
+.main__content .our__products .container .services__list .owl-two .owl-next,
+.main__content .our__products .container .services__list .owl-three .owl-prev,
+.main__content .our__products .container .services__list .owl-three .owl-next,
+.main__content .our__products .container .services__list .owl-four .owl-prev,
+.main__content .our__products .container .services__list .owl-four .owl-next,
+.main__content .our__services .container .machine__list .owl-two .owl-prev,
+.main__content .our__services .container .machine__list .owl-two .owl-next,
+.main__content .our__services .container .machine__list .owl-three .owl-prev,
+.main__content .our__services .container .machine__list .owl-three .owl-next,
+.main__content .our__services .container .machine__list .owl-four .owl-prev,
+.main__content .our__services .container .machine__list .owl-four .owl-next,
+.main__content .our__services .container .product__list .owl-two .owl-prev,
+.main__content .our__services .container .product__list .owl-two .owl-next,
+.main__content .our__services .container .product__list .owl-three .owl-prev,
+.main__content .our__services .container .product__list .owl-three .owl-next,
+.main__content .our__services .container .product__list .owl-four .owl-prev,
+.main__content .our__services .container .product__list .owl-four .owl-next,
+.main__content .our__services .container .services__list .owl-two .owl-prev,
+.main__content .our__services .container .services__list .owl-two .owl-next,
+.main__content .our__services .container .services__list .owl-three .owl-prev,
+.main__content .our__services .container .services__list .owl-three .owl-next,
+.main__content .our__services .container .services__list .owl-four .owl-prev,
+.main__content .our__services .container .services__list .owl-four .owl-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 60px !important;
+}
+
+.main__content .machine__util .container .machine__list .owl-two .owl-prev,
+.main__content .machine__util .container .machine__list .owl-three .owl-prev,
+.main__content .machine__util .container .machine__list .owl-four .owl-prev,
+.main__content .machine__util .container .product__list .owl-two .owl-prev,
+.main__content .machine__util .container .product__list .owl-three .owl-prev,
+.main__content .machine__util .container .product__list .owl-four .owl-prev,
+.main__content .machine__util .container .services__list .owl-two .owl-prev,
+.main__content .machine__util .container .services__list .owl-three .owl-prev,
+.main__content .machine__util .container .services__list .owl-four .owl-prev,
+.main__content .our__products .container .machine__list .owl-two .owl-prev,
+.main__content .our__products .container .machine__list .owl-three .owl-prev,
+.main__content .our__products .container .machine__list .owl-four .owl-prev,
+.main__content .our__products .container .product__list .owl-two .owl-prev,
+.main__content .our__products .container .product__list .owl-three .owl-prev,
+.main__content .our__products .container .product__list .owl-four .owl-prev,
+.main__content .our__products .container .services__list .owl-two .owl-prev,
+.main__content .our__products .container .services__list .owl-three .owl-prev,
+.main__content .our__products .container .services__list .owl-four .owl-prev,
+.main__content .our__services .container .machine__list .owl-two .owl-prev,
+.main__content .our__services .container .machine__list .owl-three .owl-prev,
+.main__content .our__services .container .machine__list .owl-four .owl-prev,
+.main__content .our__services .container .product__list .owl-two .owl-prev,
+.main__content .our__services .container .product__list .owl-three .owl-prev,
+.main__content .our__services .container .product__list .owl-four .owl-prev,
+.main__content .our__services .container .services__list .owl-two .owl-prev,
+.main__content .our__services .container .services__list .owl-three .owl-prev,
+.main__content .our__services .container .services__list .owl-four .owl-prev {
+  left: 10%;
+}
+
+.main__content .machine__util .container .machine__list .owl-two .owl-next,
+.main__content .machine__util .container .machine__list .owl-three .owl-next,
+.main__content .machine__util .container .machine__list .owl-four .owl-next,
+.main__content .machine__util .container .product__list .owl-two .owl-next,
+.main__content .machine__util .container .product__list .owl-three .owl-next,
+.main__content .machine__util .container .product__list .owl-four .owl-next,
+.main__content .machine__util .container .services__list .owl-two .owl-next,
+.main__content .machine__util .container .services__list .owl-three .owl-next,
+.main__content .machine__util .container .services__list .owl-four .owl-next,
+.main__content .our__products .container .machine__list .owl-two .owl-next,
+.main__content .our__products .container .machine__list .owl-three .owl-next,
+.main__content .our__products .container .machine__list .owl-four .owl-next,
+.main__content .our__products .container .product__list .owl-two .owl-next,
+.main__content .our__products .container .product__list .owl-three .owl-next,
+.main__content .our__products .container .product__list .owl-four .owl-next,
+.main__content .our__products .container .services__list .owl-two .owl-next,
+.main__content .our__products .container .services__list .owl-three .owl-next,
+.main__content .our__products .container .services__list .owl-four .owl-next,
+.main__content .our__services .container .machine__list .owl-two .owl-next,
+.main__content .our__services .container .machine__list .owl-three .owl-next,
+.main__content .our__services .container .machine__list .owl-four .owl-next,
+.main__content .our__services .container .product__list .owl-two .owl-next,
+.main__content .our__services .container .product__list .owl-three .owl-next,
+.main__content .our__services .container .product__list .owl-four .owl-next,
+.main__content .our__services .container .services__list .owl-two .owl-next,
+.main__content .our__services .container .services__list .owl-three .owl-next,
+.main__content .our__services .container .services__list .owl-four .owl-next {
+  right: 10%;
+}
+
+body {
+  background-color: lightblue;
 }
 
 .menu__scroll--gt {

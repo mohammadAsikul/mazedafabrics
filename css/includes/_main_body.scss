@@ -13,11 +13,14 @@
     }
     // about__us section start
     .about__us,
-    .machine__util{
+    .machine__util,
+    .our__products,
+    .our__services{
         margin: 40px 0;
         .container{
             .about__us--content,
-            .machine__util--content{
+            .machine__util--content,
+            .service--content{
                 margin-bottom: 40px;
                 .big--heading{
                     display: grid;
@@ -95,10 +98,45 @@
             }
         }
     }
-    .machine__util{
+    .machine__util,
+    .our__products,
+    .our__services{
         .container{
-            .machine__list{
-                
+            .machine__list,
+            .product__list,
+            .services__list{
+                .owl-two,
+                .owl-three,
+                .owl-four{
+                    .boxs{
+                        height: 200px;
+                        width: 100%;
+                        background-color: crimson;
+                    }
+                     // owl carousel
+                    // slider dot
+                    .owl-dots{
+                        width: 100%;
+                        text-align: center;
+                        position: absolute;
+                        bottom: -5%;
+                    }
+                    .owl-prev,
+                    .owl-next{
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        // color: #fff !important;
+                        font-size: 60px !important;
+                        // background: none !important;
+                    }
+                    .owl-prev{
+                        left: 10%;
+                    }
+                    .owl-next{
+                        right: 10%;
+                    }
+                }
             }
         }
     }
