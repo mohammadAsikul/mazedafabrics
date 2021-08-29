@@ -29,7 +29,12 @@ $(document).ready(function() {
   });
   // service scroll 
   $("#services_link").click(function () {
-    $('html, body').animate({scrollTop : 1875},800);
+    $('html, body').animate({scrollTop : 1915},800);
+    return false;
+  });
+  // gallary scroll 
+  $("#gallary_link").click(function () {
+    $('html, body').animate({scrollTop : 2400},800);
     return false;
   });
   // scroll top button effect -- check to see if the window is top if not then display button
@@ -82,8 +87,20 @@ $(document).ready(function() {
     autoplayHoverPause:true,
     margin: 10
   });
-  // slider for products
+  // slider for services
   $(".owl-four").owlCarousel({
+    items:4,
+    loop:true,
+    nav:true,
+    dots:true,
+    autoplay:true,
+    autoplaySpeed:1000,
+    smartSpeed:1500,
+    autoplayHoverPause:true,
+    margin: 10
+  });
+  // slider for gallary
+  $(".owl-five").owlCarousel({
     items:4,
     loop:true,
     nav:true,
