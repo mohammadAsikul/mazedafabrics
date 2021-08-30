@@ -4,18 +4,54 @@
     color: #fff;
     .container{
         line-height: 40px;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
         .rights{
             .company__name{
                 text-transform: uppercase;
             }
         }
         .design{
+            justify-self: end;
             .design__content{
                 a{
                     color: #fff;
                 }
                 a:hover{
                     text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .footer{
+        height: 60px;
+        background-color: rgba(0,0,0, 0.7);
+        color: #fff;
+        .container{
+            line-height: 30px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            .rights{
+                justify-self: center;
+                font-size: 14px;
+                .company__name{
+                    text-transform: uppercase;
+                }
+            }
+            .design{
+                justify-self: center;
+                .design__content{
+                    a{
+                        color: #fff;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
                 }
             }
         }

@@ -55,6 +55,26 @@ $(document).ready(function() {
     $('html, body').animate({scrollTop : 0},800);
     return false;
   })
+
+  // toggle functionality
+  $("#menu_ul").slideUp(100);
+  $("#toggleBtnOn").click(function(e) {
+    e.preventDefault;
+    // $("#menu_ul").toggleClass("active");
+    $("#menu_ul").slideDown();
+    $("#toggleBtnOn").hide();
+    $("#toggleBtnOff").show();
+  });
+  // toggle close functionality
+  $("#toggleBtnOff").click(function(e) {
+    e.preventDefault;
+    // $("#menu_ul").toggleClass("active");
+    $("#menu_ul").slideUp();
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
+  });
+
+
   // slider for banner section
   $(".owl-one").owlCarousel({
       items:1,
@@ -66,7 +86,7 @@ $(document).ready(function() {
       smartSpeed:1500,
       autoplayHoverPause:true,
       animateOut: 'fadeOut',
-      animateIn: 'fadeIn'
+      animateIn: 'fadeIn',
       // animateOut: 'slideOutDown',
       // animateIn: 'pulse'
   });
@@ -80,7 +100,21 @@ $(document).ready(function() {
     autoplaySpeed:1000,
     smartSpeed:1500,
     autoplayHoverPause:true,
-    margin: 10
+    margin: 10,
+    responsive:{
+      0:{
+        items:1
+      },
+      576:{
+        items:2
+      },
+      768:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
   });
   // slider for products
   $(".owl-three").owlCarousel({
@@ -92,7 +126,21 @@ $(document).ready(function() {
     autoplaySpeed:1000,
     smartSpeed:1500,
     autoplayHoverPause:true,
-    margin: 10
+    margin: 10,
+    responsive:{
+      0:{
+        items:1
+      },
+      576:{
+        items:2
+      },
+      768:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
   });
   // slider for services
   $(".owl-four").owlCarousel({
@@ -104,7 +152,20 @@ $(document).ready(function() {
     autoplaySpeed:1000,
     smartSpeed:1500,
     autoplayHoverPause:true,
-    margin: 10
+    margin: 10,    responsive:{
+      0:{
+        items:1
+      },
+      576:{
+        items:2
+      },
+      768:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
   });
   // slider for gallary
   $(".owl-five").owlCarousel({
@@ -116,7 +177,24 @@ $(document).ready(function() {
     autoplaySpeed:1000,
     smartSpeed:1500,
     autoplayHoverPause:true,
-    margin: 10
+    margin: 10,
+    responsiveClass: true,
+    responsive:{
+      0:{
+        items:1,
+        nav:false
+      },
+      576:{
+        items:2,
+        nav:false
+      },
+      768:{
+        items:3
+      },
+      1000:{
+        items:4
+      }
+    }
   });
   // typing animation
   var typed = new Typed(".typing", {

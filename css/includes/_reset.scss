@@ -15,3 +15,11 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 575px) {
+    .container{
+        // max-width: 96vw;
+        width: 100vw;
+        margin: 0 auto;
+    }
+}

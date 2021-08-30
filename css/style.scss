@@ -6,9 +6,18 @@
 @import './includes/footer';
 
 body{
-    background-color: lightblue;
+    background-color: #88BDBc;
 }
 // menu section scroll class
 .menu__scroll--gt{
     background: rgba(0,0,0, 0.7);
+}
+// toggle menu class
+.active{
+    display: block !important;
+    visibility: visible !important;
+}
+.deactive{
+    display: none !important;
+    visibility: hidden !important;
 }
