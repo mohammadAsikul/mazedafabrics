@@ -13,11 +13,6 @@ body{
     background: rgba(0,0,0, 0.7);
 }
 // toggle menu class
-.active{
-    display: block !important;
-    visibility: visible !important;
-}
-.deactive{
-    display: none !important;
-    visibility: hidden !important;
+.menu__ul.active{
+    left: 0 !important;
 }

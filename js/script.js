@@ -10,36 +10,57 @@ $(document).ready(function() {
   // home scroll effect
   $("#home_link").click(function () {
     $('html, body').animate({scrollTop : 0},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // about us scroll 
   $("#about_us_link").click(function () {
     $('html, body').animate({scrollTop : 575},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // machine_link scroll 
   $("#machine_link").click(function () {
     $('html, body').animate({scrollTop : 1140},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // products scroll 
   $("#products_link").click(function () {
     $('html, body').animate({scrollTop : 1500},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // service scroll 
   $("#services_link").click(function () {
     $('html, body').animate({scrollTop : 1915},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // gallary scroll 
   $("#gallary_link").click(function () {
     $('html, body').animate({scrollTop : 2540},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // contact us scroll 
   $("#contact_us--link").click(function () {
     $('html, body').animate({scrollTop : 2920},800);
+    $(".menu__ul").removeClass("active");
+    $("#toggleBtnOn").show();
+    $("#toggleBtnOff").hide();
     return false;
   });
   // scroll top button effect -- check to see if the window is top if not then display button
@@ -57,19 +78,18 @@ $(document).ready(function() {
   })
 
   // toggle functionality
-  $("#menu_ul").slideUp(100);
+  // $("#menu_ul").slideUp();
   $("#toggleBtnOn").click(function(e) {
     e.preventDefault;
     // $("#menu_ul").toggleClass("active");
-    $("#menu_ul").slideDown();
+    $(".menu__ul").addClass("active");
     $("#toggleBtnOn").hide();
     $("#toggleBtnOff").show();
   });
   // toggle close functionality
   $("#toggleBtnOff").click(function(e) {
     e.preventDefault;
-    // $("#menu_ul").toggleClass("active");
-    $("#menu_ul").slideUp();
+    $(".menu__ul").removeClass("active");
     $("#toggleBtnOn").show();
     $("#toggleBtnOff").hide();
   });

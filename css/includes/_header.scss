@@ -179,7 +179,7 @@
 .scroll__top{
     position: fixed;
     right: 2%;
-    bottom: 12%;
+    bottom: 8%;
     z-index: 999;
     .scroll__top--btn{
         border: none;
@@ -207,9 +207,6 @@
             color: #fff;
             .question{
                 padding-left: 10px;
-                .typing2{
-                    
-                }
             }
             .phone{
                 justify-self: end;
@@ -301,6 +298,8 @@
                     padding: 10px 0;
                     position: absolute;
                     left: -100%;
+                    top: 60px;
+                    transition: all 0.3s ease;
                     &--li{
                         text-align: center;
                         line-height: 50px;
@@ -316,6 +315,9 @@
                             background-color: #254E58;
                         }
                     }
+                }
+                .menu__ul.active{
+                    left: 0;
                 }
             }
         }
@@ -393,7 +395,7 @@
 .scroll__top{
     position: fixed;
     right: 2%;
-    bottom: 15%;
+    bottom: 10%;
     z-index: 999;
     .scroll__top--btn{
         border: none;

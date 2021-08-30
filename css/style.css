@@ -273,7 +273,7 @@ a {
 .scroll__top {
   position: fixed;
   right: 2%;
-  bottom: 12%;
+  bottom: 8%;
   z-index: 999;
 }
 
@@ -404,6 +404,9 @@ a {
     padding: 10px 0;
     position: absolute;
     left: -100%;
+    top: 60px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   .menu .container .logo__menu--container .menu__ul--li {
     text-align: center;
@@ -419,6 +422,9 @@ a {
   }
   .menu .container .logo__menu--container .menu__ul--li a:hover {
     background-color: #254E58;
+  }
+  .menu .container .logo__menu--container .menu__ul.active {
+    left: 0;
   }
   .banner .container {
     width: 100vw !important;
@@ -473,7 +479,7 @@ a {
   .scroll__top {
     position: fixed;
     right: 2%;
-    bottom: 15%;
+    bottom: 10%;
     z-index: 999;
   }
   .scroll__top .scroll__top--btn {
@@ -2103,13 +2109,7 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
-.active {
-  display: block !important;
-  visibility: visible !important;
-}
-
-.deactive {
-  display: none !important;
-  visibility: hidden !important;
+.menu__ul.active {
+  left: 0 !important;
 }
 /*# sourceMappingURL=style.css.map */
