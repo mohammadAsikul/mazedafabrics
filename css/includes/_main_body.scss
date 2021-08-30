@@ -181,4 +181,82 @@
             }
         }
     }
+    // contact us
+    .contact__us{
+        .container{
+            .big__heading{
+                margin: 40px 0;
+                h1{
+                    font-size: 40px;
+                    text-align: center;
+                }
+            }
+            .map{
+                
+                iframe{
+                    border-radius: 12px;
+                }
+            }
+            // contact information and leave comment section
+            .location__comment{
+                height: auto;
+                margin: 40px;
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: 1fr 1fr;
+                .location__container{
+                    h3{
+                        text-align: center;
+                        font-size: 1.5rem;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                    }
+                    .phone__number,
+                    .email__address,
+                    .website__address,
+                    .address{
+                        font-size: 1.2rem;
+                        padding: 5px 0;
+                        .icons{
+                            padding-right: 10px;
+                            color: crimson;
+                        }
+                        .content{}
+
+                    }
+
+                }
+                .form__container{
+                    background-color: rgba(0, 0, 0, 0.411);
+                    font-size: 1.3rem;
+                    h3{
+                        text-align: center;
+                        font-size: 1.5rem;
+                        padding: 10px;
+                    }
+                    .comment__form{
+                        
+                        input,
+                        textarea{
+                            width: 70%;
+                            margin: 5px 15%;
+                            padding: 10px;
+                        }
+                        input:focus{
+                            outline: none;
+                        }
+                        textarea:focus{
+                            outline: none;
+                        }
+                        .send{
+                            width: 20%;
+                            margin: 0 65% 40px 15%;
+                            padding: 10px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

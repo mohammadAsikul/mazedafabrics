@@ -34,7 +34,12 @@ $(document).ready(function() {
   });
   // gallary scroll 
   $("#gallary_link").click(function () {
-    $('html, body').animate({scrollTop : 2400},800);
+    $('html, body').animate({scrollTop : 2540},800);
+    return false;
+  });
+  // contact us scroll 
+  $("#contact_us--link").click(function () {
+    $('html, body').animate({scrollTop : 2920},800);
     return false;
   });
   // scroll top button effect -- check to see if the window is top if not then display button
@@ -60,8 +65,10 @@ $(document).ready(function() {
       autoplaySpeed:1000,
       smartSpeed:1500,
       autoplayHoverPause:true,
-      animateOut: 'slideOutDown',
-      animateIn: 'pulse'
+      animateOut: 'fadeOut',
+      animateIn: 'fadeIn'
+      // animateOut: 'slideOutDown',
+      // animateIn: 'pulse'
   });
   // slider for machinaries and utilites
   $(".owl-two").owlCarousel({
