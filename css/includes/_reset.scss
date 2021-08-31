@@ -15,11 +15,19 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
-
+// mobile
 @media screen and (max-width: 575px) {
     .container{
         // max-width: 96vw;
         width: 100vw;
+        margin: 0 auto;
+    }
+}
+// mobile
+@media screen and (min-width: 576px) and (max-width: 1144px) {
+    .container{
+        // max-width: 96vw;
+        width: 94vw;
         margin: 0 auto;
     }
 }
