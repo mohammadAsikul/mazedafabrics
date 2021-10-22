@@ -191,11 +191,13 @@ a {
 }
 
 .menu .container .logo__menu--container .slogan .company__info--name {
-  font-size: 23px;
+  font-size: 19px;
+  font-family: 'Carter One', cursive;
 }
 
 .menu .container .logo__menu--container .slogan .company__info--desc {
   font-size: 16px;
+  color: #FFC107;
 }
 
 .menu .container .logo__menu--container .toggle__btn--container {
