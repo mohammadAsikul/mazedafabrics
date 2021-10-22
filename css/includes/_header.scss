@@ -33,6 +33,9 @@
                     color: #fff;
                     padding: 0 3px;
                 }
+                a:hover{
+                    color: $bg-success;
+                }
             }
         }
 }
@@ -204,7 +207,6 @@
     .header__top{
         height: 35px;
         max-width: 575px;
-        background: #254E58;
         .container{
             display: grid;
             grid-template-rows: 1fr;
@@ -249,7 +251,7 @@
 .menu{
         width: 100%;
         height: 60px;
-        background: #112D32;
+        // background: #112D32;
         position: sticky;
         top: 0;
         left: 0;
@@ -301,7 +303,7 @@
                 }
                 .menu__ul{
                     display: block !important;
-                    background: rgba(0,0,0,0.8);
+                    // background: rgba(0,0,0,0.8);
                     width: 100vw;
                     height: 100vh;
                     padding: 10px 0;
@@ -423,7 +425,7 @@
         height: 35px;
         // width: 100vw;
         width: 100%;
-        background: #254E58;
+        // background: #254E58;
         .container{
             display: grid;
             grid-template-rows: 1fr;
@@ -468,7 +470,7 @@
 .menu{
         width: 100%;
         height: 60px;
-        background: #112D32;
+        // background: #112D32;
         position: sticky;
         top: 0;
         left: 0;
@@ -525,7 +527,7 @@
                     height: 100vh;
                     padding: 10px 0;
                     position: absolute;
-                    left: -100%;
+                    left: -150%;
                     top: 60px;
                     transition: all 0.3s ease;
                     &--li{
@@ -553,7 +555,7 @@
 // }banner start from here
 .banner{
     .container{
-        width: 100vw !important;
+        width: 100% !important;
         .owl-carousel{
             width: 100%;
             height: 380px;

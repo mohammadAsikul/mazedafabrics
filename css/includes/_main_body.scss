@@ -125,11 +125,22 @@
                                 width: 70%;
                                 height: 70%;
                                 margin: auto auto;
+                                transition: all 0.3s ease;
                             }
                         }
                         .box__slider--content{
+                            transition: all 0.3s ease;
                             h3{
                                 display: none;
+                            }
+                        }
+                    }
+                    .boxs:hover{
+                        .slide__content{
+                            .child__slider--img{
+                                width: 85%;
+                                height: 85%;
+                                margin: auto;
                             }
                         }
                     }
@@ -144,10 +155,15 @@
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        cursor: pointer;
                         h3{
                             display: inline;
                             text-align: center;
                             color: #ffffff;
+                        }
+                        h3:hover{
+                            color: $bg-white;
+                            opacity: 1;
                         }
                     }
                      // owl carousel
@@ -256,15 +272,18 @@
 
                 }
                 .form__container{
-                    background-color: rgba(0, 0, 0, 0.411);
+                    // background-color: rgba(0, 0, 0, 0.411);
+                    background-color: $bg-cool-4;
+                    border-radius: 8px;
+                    box-shadow: 2px 2px ;
                     font-size: 1.3rem;
+                    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
                     h3{
                         text-align: center;
                         font-size: 1.5rem;
                         padding: 10px;
                     }
                     .comment__form{
-                        
                         input,
                         textarea{
                             width: 70%;
@@ -282,6 +301,14 @@
                             margin: 0 65% 40px 15%;
                             padding: 10px;
                             font-weight: 600;
+                            cursor: pointer;
+                            border: none;
+                            transition: all 0.3s ease;
+                            border-radius: 4px;
+                        }
+                        .send:hover{
+                            background-color: $bg-primary-1;
+                            color: $text-light;
                         }
                     }
                 }
