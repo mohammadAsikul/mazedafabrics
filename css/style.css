@@ -147,7 +147,7 @@ a {
 .menu {
   width: 100%;
   height: 60px;
-  background-color: #379683;
+  background-color: #0fbe9b;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -190,8 +190,8 @@ a {
   color: #ffffff;
 }
 
-.menu .container .logo__menu--container .slogan .company__info--name {
-  font-size: 23px;
+.menu .container .logo__menu--container .slogan .company__info--name img {
+  width: 230px;
 }
 
 .menu .container .logo__menu--container .slogan .company__info--desc {
@@ -923,6 +923,143 @@ a {
   font-size: 1.2rem;
 }
 
+.main__content .about__us .container .about__us--content .about__content p,
+.main__content .about__us .container .machine__util--content .about__content p,
+.main__content .about__us .container .service--content .about__content p,
+.main__content .about__us .container .gallary--content .about__content p,
+.main__content .machine__util .container .about__us--content .about__content p,
+.main__content .machine__util .container .machine__util--content .about__content p,
+.main__content .machine__util .container .service--content .about__content p,
+.main__content .machine__util .container .gallary--content .about__content p,
+.main__content .our__products .container .about__us--content .about__content p,
+.main__content .our__products .container .machine__util--content .about__content p,
+.main__content .our__products .container .service--content .about__content p,
+.main__content .our__products .container .gallary--content .about__content p,
+.main__content .our__services .container .about__us--content .about__content p,
+.main__content .our__services .container .machine__util--content .about__content p,
+.main__content .our__services .container .service--content .about__content p,
+.main__content .our__services .container .gallary--content .about__content p,
+.main__content .gallary .container .about__us--content .about__content p,
+.main__content .gallary .container .machine__util--content .about__content p,
+.main__content .gallary .container .service--content .about__content p,
+.main__content .gallary .container .gallary--content .about__content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__content .about__us .container .about__us--content .about__content p .about__logo,
+.main__content .about__us .container .machine__util--content .about__content p .about__logo,
+.main__content .about__us .container .service--content .about__content p .about__logo,
+.main__content .about__us .container .gallary--content .about__content p .about__logo,
+.main__content .machine__util .container .about__us--content .about__content p .about__logo,
+.main__content .machine__util .container .machine__util--content .about__content p .about__logo,
+.main__content .machine__util .container .service--content .about__content p .about__logo,
+.main__content .machine__util .container .gallary--content .about__content p .about__logo,
+.main__content .our__products .container .about__us--content .about__content p .about__logo,
+.main__content .our__products .container .machine__util--content .about__content p .about__logo,
+.main__content .our__products .container .service--content .about__content p .about__logo,
+.main__content .our__products .container .gallary--content .about__content p .about__logo,
+.main__content .our__services .container .about__us--content .about__content p .about__logo,
+.main__content .our__services .container .machine__util--content .about__content p .about__logo,
+.main__content .our__services .container .service--content .about__content p .about__logo,
+.main__content .our__services .container .gallary--content .about__content p .about__logo,
+.main__content .gallary .container .about__us--content .about__content p .about__logo,
+.main__content .gallary .container .machine__util--content .about__content p .about__logo,
+.main__content .gallary .container .service--content .about__content p .about__logo,
+.main__content .gallary .container .gallary--content .about__content p .about__logo {
+  width: 50px;
+}
+
+.main__content .about__us .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .about__us .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .about__us .container .service--content .about__content p .about__logo--alpha,
+.main__content .about__us .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .service--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .service--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .service--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .service--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .gallary--content .about__content p .about__logo--alpha {
+  width: 210px;
+}
+
+.main__content .about__us .container .about__us--content .about__content p .about__logo,
+.main__content .about__us .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .about__us .container .machine__util--content .about__content p .about__logo,
+.main__content .about__us .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .about__us .container .service--content .about__content p .about__logo,
+.main__content .about__us .container .service--content .about__content p .about__logo--alpha,
+.main__content .about__us .container .gallary--content .about__content p .about__logo,
+.main__content .about__us .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .about__us--content .about__content p .about__logo,
+.main__content .machine__util .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .machine__util--content .about__content p .about__logo,
+.main__content .machine__util .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .service--content .about__content p .about__logo,
+.main__content .machine__util .container .service--content .about__content p .about__logo--alpha,
+.main__content .machine__util .container .gallary--content .about__content p .about__logo,
+.main__content .machine__util .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .about__us--content .about__content p .about__logo,
+.main__content .our__products .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .machine__util--content .about__content p .about__logo,
+.main__content .our__products .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .service--content .about__content p .about__logo,
+.main__content .our__products .container .service--content .about__content p .about__logo--alpha,
+.main__content .our__products .container .gallary--content .about__content p .about__logo,
+.main__content .our__products .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .about__us--content .about__content p .about__logo,
+.main__content .our__services .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .machine__util--content .about__content p .about__logo,
+.main__content .our__services .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .service--content .about__content p .about__logo,
+.main__content .our__services .container .service--content .about__content p .about__logo--alpha,
+.main__content .our__services .container .gallary--content .about__content p .about__logo,
+.main__content .our__services .container .gallary--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .about__us--content .about__content p .about__logo,
+.main__content .gallary .container .about__us--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .machine__util--content .about__content p .about__logo,
+.main__content .gallary .container .machine__util--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .service--content .about__content p .about__logo,
+.main__content .gallary .container .service--content .about__content p .about__logo--alpha,
+.main__content .gallary .container .gallary--content .about__content p .about__logo,
+.main__content .gallary .container .gallary--content .about__content p .about__logo--alpha {
+  display: inline-block;
+}
+
+.main__content .about__us .container .about__us--content .about__content p .about__headquarters,
+.main__content .about__us .container .machine__util--content .about__content p .about__headquarters,
+.main__content .about__us .container .service--content .about__content p .about__headquarters,
+.main__content .about__us .container .gallary--content .about__content p .about__headquarters,
+.main__content .machine__util .container .about__us--content .about__content p .about__headquarters,
+.main__content .machine__util .container .machine__util--content .about__content p .about__headquarters,
+.main__content .machine__util .container .service--content .about__content p .about__headquarters,
+.main__content .machine__util .container .gallary--content .about__content p .about__headquarters,
+.main__content .our__products .container .about__us--content .about__content p .about__headquarters,
+.main__content .our__products .container .machine__util--content .about__content p .about__headquarters,
+.main__content .our__products .container .service--content .about__content p .about__headquarters,
+.main__content .our__products .container .gallary--content .about__content p .about__headquarters,
+.main__content .our__services .container .about__us--content .about__content p .about__headquarters,
+.main__content .our__services .container .machine__util--content .about__content p .about__headquarters,
+.main__content .our__services .container .service--content .about__content p .about__headquarters,
+.main__content .our__services .container .gallary--content .about__content p .about__headquarters,
+.main__content .gallary .container .about__us--content .about__content p .about__headquarters,
+.main__content .gallary .container .machine__util--content .about__content p .about__headquarters,
+.main__content .gallary .container .service--content .about__content p .about__headquarters,
+.main__content .gallary .container .gallary--content .about__content p .about__headquarters {
+  display: inline-block;
+}
+
 .main__content .about__us .container .about__us--content h3,
 .main__content .about__us .container .machine__util--content h3,
 .main__content .about__us .container .service--content h3,
@@ -970,6 +1107,101 @@ a {
 .main__content .gallary .container .gallary--content p {
   font-size: 1.2rem;
   text-align: justify;
+}
+
+.main__content .about__us .container .about__us--content .para,
+.main__content .about__us .container .machine__util--content .para,
+.main__content .about__us .container .service--content .para,
+.main__content .about__us .container .gallary--content .para,
+.main__content .machine__util .container .about__us--content .para,
+.main__content .machine__util .container .machine__util--content .para,
+.main__content .machine__util .container .service--content .para,
+.main__content .machine__util .container .gallary--content .para,
+.main__content .our__products .container .about__us--content .para,
+.main__content .our__products .container .machine__util--content .para,
+.main__content .our__products .container .service--content .para,
+.main__content .our__products .container .gallary--content .para,
+.main__content .our__services .container .about__us--content .para,
+.main__content .our__services .container .machine__util--content .para,
+.main__content .our__services .container .service--content .para,
+.main__content .our__services .container .gallary--content .para,
+.main__content .gallary .container .about__us--content .para,
+.main__content .gallary .container .machine__util--content .para,
+.main__content .gallary .container .service--content .para,
+.main__content .gallary .container .gallary--content .para {
+  margin: 10px 0;
+}
+
+.main__content .about__us .container .about__us--content .about__second--para,
+.main__content .about__us .container .machine__util--content .about__second--para,
+.main__content .about__us .container .service--content .about__second--para,
+.main__content .about__us .container .gallary--content .about__second--para,
+.main__content .machine__util .container .about__us--content .about__second--para,
+.main__content .machine__util .container .machine__util--content .about__second--para,
+.main__content .machine__util .container .service--content .about__second--para,
+.main__content .machine__util .container .gallary--content .about__second--para,
+.main__content .our__products .container .about__us--content .about__second--para,
+.main__content .our__products .container .machine__util--content .about__second--para,
+.main__content .our__products .container .service--content .about__second--para,
+.main__content .our__products .container .gallary--content .about__second--para,
+.main__content .our__services .container .about__us--content .about__second--para,
+.main__content .our__services .container .machine__util--content .about__second--para,
+.main__content .our__services .container .service--content .about__second--para,
+.main__content .our__services .container .gallary--content .about__second--para,
+.main__content .gallary .container .about__us--content .about__second--para,
+.main__content .gallary .container .machine__util--content .about__second--para,
+.main__content .gallary .container .service--content .about__second--para,
+.main__content .gallary .container .gallary--content .about__second--para {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.main__content .about__us .container .about__us--content .about__fifth--para,
+.main__content .about__us .container .machine__util--content .about__fifth--para,
+.main__content .about__us .container .service--content .about__fifth--para,
+.main__content .about__us .container .gallary--content .about__fifth--para,
+.main__content .machine__util .container .about__us--content .about__fifth--para,
+.main__content .machine__util .container .machine__util--content .about__fifth--para,
+.main__content .machine__util .container .service--content .about__fifth--para,
+.main__content .machine__util .container .gallary--content .about__fifth--para,
+.main__content .our__products .container .about__us--content .about__fifth--para,
+.main__content .our__products .container .machine__util--content .about__fifth--para,
+.main__content .our__products .container .service--content .about__fifth--para,
+.main__content .our__products .container .gallary--content .about__fifth--para,
+.main__content .our__services .container .about__us--content .about__fifth--para,
+.main__content .our__services .container .machine__util--content .about__fifth--para,
+.main__content .our__services .container .service--content .about__fifth--para,
+.main__content .our__services .container .gallary--content .about__fifth--para,
+.main__content .gallary .container .about__us--content .about__fifth--para,
+.main__content .gallary .container .machine__util--content .about__fifth--para,
+.main__content .gallary .container .service--content .about__fifth--para,
+.main__content .gallary .container .gallary--content .about__fifth--para {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.main__content .about__us .container .about__us--content .about__seventh--para,
+.main__content .about__us .container .machine__util--content .about__seventh--para,
+.main__content .about__us .container .service--content .about__seventh--para,
+.main__content .about__us .container .gallary--content .about__seventh--para,
+.main__content .machine__util .container .about__us--content .about__seventh--para,
+.main__content .machine__util .container .machine__util--content .about__seventh--para,
+.main__content .machine__util .container .service--content .about__seventh--para,
+.main__content .machine__util .container .gallary--content .about__seventh--para,
+.main__content .our__products .container .about__us--content .about__seventh--para,
+.main__content .our__products .container .machine__util--content .about__seventh--para,
+.main__content .our__products .container .service--content .about__seventh--para,
+.main__content .our__products .container .gallary--content .about__seventh--para,
+.main__content .our__services .container .about__us--content .about__seventh--para,
+.main__content .our__services .container .machine__util--content .about__seventh--para,
+.main__content .our__services .container .service--content .about__seventh--para,
+.main__content .our__services .container .gallary--content .about__seventh--para,
+.main__content .gallary .container .about__us--content .about__seventh--para,
+.main__content .gallary .container .machine__util--content .about__seventh--para,
+.main__content .gallary .container .service--content .about__seventh--para,
+.main__content .gallary .container .gallary--content .about__seventh--para {
+  margin-bottom: 0;
 }
 
 .main__content .about__us .container .md--container,
@@ -1932,7 +2164,7 @@ a {
 }
 
 .main__content .contact__us .container .location__comment .form__container {
-  background-color: #379683;
+  background-color: #0fbe9b;
   border-radius: 8px;
   -webkit-box-shadow: 2px 2px;
           box-shadow: 2px 2px;
@@ -3672,7 +3904,7 @@ body {
 }
 
 .menu__scroll--gt {
-  background-color: #3796839d;
+  background-color: #1d27259d;
 }
 
 .menu__ul.active {

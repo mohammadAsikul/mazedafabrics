@@ -50,6 +50,26 @@
                         font-size: 1.2rem;
                     }
                 }
+                .about__content{
+                    p{
+                        display: flex;
+
+                        .about__logo{
+                            width: 50px;
+                        }
+                        .about__logo--alpha{
+                            width: 210px;
+                        }
+                        .about__logo,
+                        .about__logo--alpha{
+                            display: inline-block;
+                            // padding-top: 15px;
+                        }
+                        .about__headquarters{
+                            display: inline-block;
+                        }
+                    }
+                }
                 h3{
                     margin-bottom: 30px;
                     text-align: center;
@@ -58,6 +78,22 @@
                 p{
                     font-size: 1.2rem;
                     text-align: justify;
+                    
+                }
+                .para{
+                    margin: 10px 0;
+                }
+                .about__second--para{
+                    font-size: 1.2rem;
+                    text-align: justify;
+                }
+                .about__fifth--para{
+                    font-size: 1.2rem;
+                    text-align: justify;
+                    margin-bottom: 0;
+                }
+                .about__seventh--para{
+                    margin-bottom: 0;
                 }
             }
             .md--container{
