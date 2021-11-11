@@ -190,12 +190,19 @@ a {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 .menu .container .logo__menu--container .slogan .company__info--name img {
   width: 230px;
+=======
+.menu .container .logo__menu--container .slogan .company__info--name {
+  font-size: 19px;
+  font-family: 'Carter One', cursive;
+>>>>>>> master
 }
 
 .menu .container .logo__menu--container .slogan .company__info--desc {
   font-size: 16px;
+  color: #FFC107;
 }
 
 .menu .container .logo__menu--container .toggle__btn--container {

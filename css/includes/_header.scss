@@ -70,14 +70,25 @@
                     .company__info--name,
                     .company__info--desc{
                         color: $text-white;
+                        // font-family: 'Roboto', sans-serif;
+                        // font-family: 'Ubuntu', sans-serif;
+                        // font-family: 'Carter One', cursive;
                     }
                     .company__info--name{
+<<<<<<< HEAD
                         img{
                             width: 230px;
                         }
+=======
+                        font-size: 19px;
+                        // font-family: 'Black Ops One', cursive;
+                        font-family: 'Carter One', cursive;
+>>>>>>> master
                     }
                     .company__info--desc{
                         font-size: 16px;
+                        color: $bg-warning;
+                        // font-family: 'Racing Sans One', cursive;
                     }
                 }
                 // toggle button
